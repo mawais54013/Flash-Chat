@@ -1,29 +1,31 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
-
 # Flash-Chat
-bgrtr
-## Our Goal
 
-One of the most fundamental component of modern iOS apps is the Table View. Table Views are used everywhere from the Mail app to the Messages app. It’s a crucial part of every iOS developer’s tool belt. In this tutorial we’ll be getting to grips with Table Views, creating custom cells, and making our own cloud-based backend database. It’s going to be epic, so buckle up.
+Chat application where user's can talk with each other, created with firebase's authentication and realtime database to store chat and login information. 
 
-## What you will create
+<img src="Flash Chat/Images.xcassets/Screen1.png" width="200" height="400" />
 
-Flash Chat is an internet based messaging app similar to WhatsApp, the popular messaging app that was bought by Facebook for $22 billion. We will be using a service called Firebase as a backend data server to store and retrieve our messages from the cloud. 
+# Getting Started 
 
-## What you will learn
+After the app is loaded, users will be directed to either the login or register page and then to the chat page. The user can view previous text from other users as well as themselves or they can type a new message to add to the history. 
 
-* How to integrate third party libraries in your app.
-* How to store data in the cloud using Firebase.
-* How to query the Firebase database.
-* How to use Firebase for user authentication.
-* How to work with a UITableView.
-* How to use custom cells in a Table View.
-* How to embed View Controllers in a Navigation Controller and understanding the navigation stack.
-* How to create Segues for navigation.
-* How to make custom .xib files to modify native design components.
-* Using Grand Central Dispatch to queue asynchronous tasks.
+# Built With
 
+- Swift 
+- UiKit
+- CocoaPods
+    - Firebase
+        - FirebaseAuth
+        - FirebaseDatabase
+    - SVProgressHUD
+    - ChameleonFramework
 
->This is a companion project to The App Brewery's Complete App Developement Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+# App Icon Logo
 
-![End Banner](Documentation/readme-end-banner.png)
+<img src="Flash Chat/Images.xcassets/AppIcon.appiconset/Icon-40@2x.png" width="100" height="100" />
+
+# Wireframe Layout
+
+Storyboard for this project shown below:
+
+<img src="Flash Chat/Images.xcassets/Screen2.png" width="500" height="400" />
+
